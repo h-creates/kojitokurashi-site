@@ -1,0 +1,14 @@
+# OS / editor
+.DS_Store
+**/.DS_Store
+*.log
+
+# tooling / local
+node_modules/
+.claude/
+
+# 開発・参照用（公開リポジトリには含めない）
+design/
+project-root/
+scripts/
+public/images/opt/_source/

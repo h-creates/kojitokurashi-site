@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://kojitokurashi.pages.dev/sitemap.xml
