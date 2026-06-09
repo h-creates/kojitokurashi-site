@@ -572,12 +572,13 @@ ul { margin: 0; padding: 0; list-style: none; }
 
   /* First View — 写真の上にテキストを重ねる（縦長） */
   .fv-slide { background-position: 72% center; }   /* 写真の右側を見せる */
+  /* モヤは文字のある上部だけに絞り、下半分は写真をくっきり見せる */
   .fv-media::after {
     background: linear-gradient(180deg,
-      rgba(253,252,247,.92) 0%,
-      rgba(253,252,247,.78) 40%,
-      rgba(253,252,247,.30) 60%,
-      rgba(253,252,247,0) 82%);
+      rgba(253,252,247,.9) 0%,
+      rgba(253,252,247,.72) 27%,
+      rgba(253,252,247,.2) 43%,
+      rgba(253,252,247,0) 56%);
   }
   .fv-copy {
     min-height: min(82vh, 620px);
