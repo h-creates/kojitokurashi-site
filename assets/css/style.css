@@ -197,6 +197,11 @@ ul { margin: 0; padding: 0; list-style: none; }
   margin: 0 0 26px;
   color: #43392d;
 }
+/* 意味語（麹・発酵・力・日常）を大きく、つなぎの仮名はそのまま。下揃え（ベースライン） */
+.fv-title .lg {
+  font-size: 1.42em;
+  vertical-align: baseline;
+}
 .fv-lead {
   position: relative;
   width: fit-content;
