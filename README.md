@@ -35,7 +35,7 @@ npx serve        # または  python3 -m http.server
 
 ## 公開ドメインの差し替え
 
-SEO 用に、以下のファイル内の `https://kojitokurashi.pages.dev` を**実際の公開URL**に置き換えてください。
+SEO 用に、以下のファイル内の `https://kojitokurashi-site.pages.dev` を**実際の公開URL**に置き換えてください。
 
 - `index.html`（canonical / og:url / og:image / twitter:image / JSON-LD）
 - `robots.txt`（Sitemap）
